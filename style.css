@@ -1,11 +1,12 @@
 * {margin:0;padding:0;border:0;}
-.tab_content {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:12px;} 
+.tab_content {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:20px;} 
 
 input[type="radio"] {display:none;} 
 input[type="radio"] + label {display:inline-block;padding:20px;background:#ccc;color:#999;font-size:14px;cursor:pointer;} 
 input[type="radio"]:checked + label {background:#aaa;color:#000;}
 
-.conbox {width:500px;height:600px;background:#aaa;margin:0 auto;display:none;} 
+.conbox {width:700px;height:900px;background:#aaa;margin:0 auto;display:none;} 
 input[id="tab01"]:checked ~ .con1 {display:block;}
 input[id="tab02"]:checked ~ .con2 {display:block;}
 input[id="tab03"]:checked ~ .con3 {display:block;}
+input[id="tab04"]:checked ~ .con4 {display:block;}
